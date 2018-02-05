@@ -101,21 +101,20 @@ def ManyDecryption():
 # This is a main function decides what function should be run from script.
 def main():
 
-        start = theStart()
-#    try:
-        if (start.options.word_hash != None) and (start.options.type_hash != None) and (start.options.many == None):
-            Encryption()
+    start = theStart()
 
-        elif (start.options.word_hash != None) and (start.options.type_hash != None) and (start.options.many != None):
-            ManyEncryption()
+    if (start.options.word_hash != None) and (start.options.type_hash != None) and (start.options.many == None):
+        Encryption()
 
-        elif (start.options.word_list != None) and (start.options.encrypt != None) and (start.options.type_hash != None) and (start.options.many == None):
-            Decryption()
+    elif (start.options.word_hash != None) and (start.options.type_hash != None) and (start.options.many != None):
+        ManyEncryption()
 
-        elif (start.options.word_list != None) and (start.options.encrypt != None) and (start.options.type_hash != None) and (start.options.many != None):
-            ManyDecryption()
-#    except:
-#        pass
+    elif (start.options.word_list != None) and (start.options.encrypt != None) and (start.options.type_hash != None) and (start.options.many == None):
+        Decryption()
+
+    elif (start.options.word_list != None) and (start.options.encrypt != None) and (start.options.type_hash != None) and (start.options.many != None):
+        ManyDecryption()
+
 # Main function start from here.
 if __name__ == "__main__":
     main()

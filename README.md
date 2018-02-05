@@ -18,7 +18,7 @@ ripemd160
 python3 hashdeen.py -t md5 -a password
 ```
 
-`This will encrypt the word [password] for 10 times:`
+##### This will encrypt the word [password] for 10 times:
 
 ```
 python3 hashdeen.py -t md5 -a password -m 10
@@ -26,13 +26,13 @@ python3 hashdeen.py -t md5 -a password -m 10
 
 #### For decryption:
 
-`This will decrypt the hash from wordlist once:`
+##### This will decrypt the hash from wordlist once:
 
 ```
 python3 -t sha1 -e 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 -w wordlist.txt
 ```
 
-`This will decrypt the hash from wordlist 15 times:`
+##### This will decrypt the hash from wordlist 15 times:
 
 ```
 python3 -t sha1 -e 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 -w wordlist.txt -m 15

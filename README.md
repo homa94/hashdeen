@@ -1,33 +1,33 @@
-			>>>> HASHDEEN version 1.0 <<<<
+# HASHDEEN version 1.0
 
 Hashdeen is a simple script written in python3
 It can encrypt and decrypt many type of hashes
 Many times or once.
 
-Such as: [[md5 md4 md5-sha1 sha1 sha224 sha256 
+Such as: md5 md4 md5-sha1 sha1 sha224 sha256 
 sha384 sha512 blake2b512 blake2s256 whirlpool 
-ripemd160]]
+ripemd160
 
->>> Examples:
+# Examples:
 
-> For encryption:
+# For encryption:
 
 python3 hashdeen.py -t md5 -a password
 
-# This will encrypt the word [password] for once.
+-> This will encrypt the word [password] for once.
 
 python3 hashdeen.py -t md5 -a password -m 10
 
-# This will encrypt the word [password] for 10 times.
+-> This will encrypt the word [password] for 10 times.
 
-> For decryption:
+# For decryption:
 
 python3 -t sha1 -e 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 -w wordlist.txt
 
-# This will decrypt the hash from wordlist once.
+-> This will decrypt the hash from wordlist once.
 
 python3 -t sha1 -e 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 -w wordlist.txt -m 15
 
-# This will decrypt the hash from wordlist 15 times.
+-> This will decrypt the hash from wordlist 15 times.
 
 

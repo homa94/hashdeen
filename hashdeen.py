@@ -61,10 +61,10 @@ def ManyEncryption():
 
     if start.type_hash == start.ListOfHashes.get(start.type_hash):
             start.word_hash = start.run.Hash(self=start.word_hash, hash_type=start.type_hash)
-            print(start.word_hash)
+            print(0, start.word_hash)
             for i in range(start.many):
                 start.word_hash = start.run.Hash(self=start.word_hash, hash_type=start.type_hash)
-                print(start.word_hash)
+                print(i+1, start.word_hash)
 
 # This function it can decrypt anything you write one time and with many kind of hashes.
 def Decryption():

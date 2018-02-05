@@ -8,7 +8,7 @@ Such as: md5 md4 md5-sha1 sha1 sha224 sha256
 sha384 sha512 blake2b512 blake2s256 whirlpool 
 ripemd160
 
-### Examples:
+## Examples:
 
 #### For encryption:
 

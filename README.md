@@ -1,6 +1,6 @@
 # HASHDEEN version 1.0
 
-Hashdeen is a simple script written in python3
+Hashdeen is a simple script written in python
 It can encrypt and decrypt many type of hashes
 Many times or once.
 

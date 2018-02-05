@@ -12,7 +12,7 @@ ripemd160
 
 #### For encryption:
 
-`This will encrypt the word [password] for once:`
+##### This will encrypt the word [password] for once:
 
 ```
 python3 hashdeen.py -t md5 -a password
